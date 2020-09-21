@@ -847,6 +847,51 @@
         "abandoned": "php-parallel-lint/php-console-highlighter"
     },
     {
+        "name": "laravel-frontend-presets/argon",
+        "version": "1.0.12",
+        "version_normalized": "1.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laravel-frontend-presets/argon.git",
+            "reference": "ff48f7561ef3d58ae702ed08c72eaa4fedbe99cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laravel-frontend-presets/argon/zipball/ff48f7561ef3d58ae702ed08c72eaa4fedbe99cd",
+            "reference": "ff48f7561ef3d58ae702ed08c72eaa4fedbe99cd",
+            "shasum": ""
+        },
+        "require": {
+            "laravel/framework": "^5.5 || ^6.0"
+        },
+        "time": "2019-09-23T10:02:11+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "LaravelFrontendPresets\\ArgonPreset\\ArgonPresetServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LaravelFrontendPresets\\ArgonPreset\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Laravel 5.x Front-end preset for argon",
+        "homepage": "https://github.com/creativetimofficial/argon-dashboard",
+        "keywords": [
+            "Argon",
+            "laravel",
+            "preset"
+        ]
+    },
+    {
         "name": "laravel/framework",
         "version": "v6.18.40",
         "version_normalized": "6.18.40.0",
@@ -1061,6 +1106,62 @@
             "Tinker",
             "laravel",
             "psysh"
+        ]
+    },
+    {
+        "name": "laravel/ui",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laravel/ui.git",
+            "reference": "bb64fca681566ca94457d490a00f899516e75664"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laravel/ui/zipball/bb64fca681566ca94457d490a00f899516e75664",
+            "reference": "bb64fca681566ca94457d490a00f899516e75664",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/console": "~5.8|^6.0",
+            "illuminate/filesystem": "~5.8|^6.0",
+            "illuminate/support": "~5.8|^6.0",
+            "php": "^7.1.3"
+        },
+        "require-dev": {
+            "mockery/mockery": "^1.0",
+            "phpunit/phpunit": "^8.0"
+        },
+        "time": "2020-02-13T21:12:28+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Laravel\\Ui\\UiServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Laravel\\Ui\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "Laravel UI utilities and presets.",
+        "keywords": [
+            "laravel",
+            "ui"
         ]
     },
     {
